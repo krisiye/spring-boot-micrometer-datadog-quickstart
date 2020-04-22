@@ -1,0 +1,8 @@
+spring:
+  profiles: local
+
+management:
+  metrics:
+    export:
+      datadog:
+        enabled: true
